@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='Unwiki',
+setup(name='unwiki',
       version='0.2',
       description='Python Distribution Utilities',
       author='ordak',

@@ -5,3 +5,7 @@ Unwiki.egg-info/dependency_links.txt
 Unwiki.egg-info/top_level.txt
 unwiki/__init__.py
 unwiki/unwiki.py
+unwiki.egg-info/PKG-INFO
+unwiki.egg-info/SOURCES.txt
+unwiki.egg-info/dependency_links.txt
+unwiki.egg-info/top_level.txt
