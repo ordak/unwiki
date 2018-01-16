@@ -4,9 +4,9 @@ import unittest
 
 class LinkTests(unittest.TestCase):
 
-    def check(self, instr, outstr, debug=False):
-        dut = UnWiki(instr, debug=debug)
-        self.assertEqual(str(dut).strip(), outstr.strip())
+    def check(self, input_string, output_string, debug=False):
+        dut = UnWiki(input_string, debug=debug)
+        self.assertEqual(str(dut).strip(), output_string.strip())
 
     def test_linkstream(self):
         self.check('good [[hi]]phop', 'good hiphop')
